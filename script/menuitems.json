@@ -1,0 +1,17 @@
+[{"name" :"lunch",
+"img":"../images/menu/Menu3 (1).jpg"
+
+}
+,
+{"name":"soup",
+"img":"../images/menu/Menu3 (2).jpg"
+},
+{
+   "name":"chicken",
+   "img":"../images/menu/Menu3 (3).jpg"
+},
+{
+   "name":"veg",
+   "img":"../images/menu/Menu3 (4).jpg"
+}
+]
