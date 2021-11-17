@@ -42,7 +42,6 @@ body{
 }
 .menu-header{
     width: 45%;
-    /* border:2px solid blue; */
 }
 .main-content{
     width: 100%;
@@ -103,21 +102,15 @@ body{
  .footer-icons{
      display: flex;
      width: 60%;
-     /* border: 2px solid blue; */
     align-items: flex-start;
      align-self: center;
-     
-     /* justify-content: center; */
      margin-left: 350px;
 
  }
  .hours, .add, .review{
      width:33%;
-     /* border:2px solid  rgb(110, 167, 20); */
      height: 200px;
-     margin-top: 15px;
-     /* border: 2px solid pink; */
-     
+     margin-top: 15px;     
  }
 #delivery-add{
     color:#baee0e;
@@ -126,10 +119,8 @@ body{
 }
 .review{
     font-style: italic; 
-    /* margin-left: 70px; */
 }
 .trademark{
-   /* margin-top: 20px; */
     margin-left:760px;
 }
 
