@@ -1,72 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <title>Restaurant</title>
-   
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <title>Restaurant</title>
 
-  <body>
-    <div>
+</head>
 
-      <header class="header">
-        <nav class="navigation">
-          <a href="../index.html">
-            <img src="../images/restaurant-logo_large.png" class="header-image">
-          </a>
-        </nav>
-        <div class="text-header">
-          <p class="david-chu">
-            DAVID CHU'S CHINA BISTRO
-          </p>
-          <img src="../images/star-k-logo.png" class="star-logo">
-          <span class="kosher"> KOSHER CERTIFIED </span>
-        </div>
-        <div class="menu-header">
-        </div>
-      </header>
-
-      <div id="app">
+<body>
+  <div>
+  
+    <header class="header">
+      <nav class="navigation">
+        <a href="../index.html">
+          <img src="../images/restaurant-logo_large.png" class="header-image">
+        </a>
+      </nav>
+      <div class="text-header">
+        <p class="david-chu">
+          DAVID CHU'S CHINA BISTRO
+        </p>
+        <img src="../images/star-k-logo.png" class="star-logo">
+        <span class="kosher"> KOSHER CERTIFIED </span>
       </div>
-
-      <footer class="footer">
-        <div class="footer-icons">
-          <div class="hours">
-            <p>Hours:</p>
-            <p>Sun-Thrus:11:15am-10:00pm</p>
-            <p>Fri:11:15am-2:30pm</p>
-            <p>Saturday Closed</p>
-          </div>
-          <div class="add">
-            <h2>Address:</h2>
-            <p>7105 Reisterstown Road</p>
-            <p>Baltimore, MD 21215</p>
-            <p id="delivery-add">*Delivery area within 3-4 miles, with minimum
-              order of $20
-              plus $3 charge for all deliveries.
-            </p>
-          </div>
-          <div class="review">
-            <p> *The best Chinese restaurant I've been to!And
-              that's saying a lot, since I've been to many!*
-            </p>
-            <br>
-            <p>
-              "Amazing food! Great service! Couldn't ask for
-              more! I'll be back again and again!"
-            </p>
-          </div>
-        </div>
-        <div class="trademark">&copy Copyright David Chu's Bistro 2016</div>
-      </footer>
-      
-      <script src="../script/menu.js"></script>
+      <div class="menu-header">
+        <ul id="nav-list">
+          <li id="navButton">
+            <a href="#">
+              Menu</a>
+          </li>
+          <li id="navButton">
+            <a href="#">
+              About</a>
+          </li>
+          <li id="navButton">
+            <a href="#">
+              Awards</a>
+          </li>
+          <li>
+            <a href="tel:410-602-5008">
+              <span id="phone">410-602-5008</span></a>
+            <div id="we-deliver">* We Deliver</div>
+          </li>
+        </ul>
+      </div>
+    </header>
+  
+    <div id="app">
     </div>
-    
-  </body>
+  
+    <footer class="footer">
+      <div class="footer-icons">
+        <div class="hours">
+          <p>Hours:</p>
+          <p>Sun-Thrus:11:15am-10:00pm</p>
+          <p>Fri:11:15am-2:30pm</p>
+          <p>Saturday Closed</p>
+        </div>
+        <div class="add">
+          <h2>Address:</h2>
+          <p>7105 Reisterstown Road</p>
+          <p>Baltimore, MD 21215</p>
+          <p id="delivery-add">*Delivery area within 3-4 miles, with minimum
+            order of $20
+            plus $3 charge for all deliveries.
+          </p>
+        </div>
+        <div class="review">
+          <p> *The best Chinese restaurant I've been to!And
+            that's saying a lot, since I've been to many!*
+          </p>
+          <br>
+          <p>
+            "Amazing food! Great service! Couldn't ask for
+            more! I'll be back again and again!"
+          </p>
+        </div>
+      </div>
+      <div class="trademark">&copy Copyright David Chu's Bistro 2016</div>
+    </footer>
+
+    <script src="../script/menu.js"></script>
+  </div>
+
+</body>
 
 </html>

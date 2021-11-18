@@ -40,6 +40,31 @@ body{
 .star-logo{
     margin-left: 5px
 }
+#nav-list{
+    display: flex;
+    width:60%;
+    height:100px;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 30px;
+   
+}
+ul {
+    list-style-type: none;
+  }
+  a:link{
+      text-decoration: none;
+      color:#3F0C1F;
+  }
+  #phone{
+      font-size: 30px;
+      color: #3F0C1F;
+  }
+#we-deliver{
+      font-size: 18px;
+      margin-left: 70px;
+      color: green;
+  }
 .menu-header{
     width: 45%;
 }
@@ -92,6 +117,7 @@ body{
     display: flex;
     align-items: center;
     margin-bottom: 50px;
+
 }
 .footer{
     color:white;
@@ -110,24 +136,44 @@ body{
  .hours, .add, .review{
      width:33%;
      height: 200px;
-     margin-top: 15px;     
+     margin-top: 25px;     
  }
 #delivery-add{
     color:#baee0e;
-    font-size: 0.8em;
+    font-size:14px;
     margin-top: 20px;
 }
 .review{
     font-style: italic; 
+    font-size: 18px;
 }
 .trademark{
-    margin-left:760px;
+    margin-left:700px;
+    font-size: 20px;
 }
-
+.footer-medium{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
 #app{
     background-color:#3F0C1F ;
     width: 100%;
     height: 1000px;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+   text-align: center;
+   font-weight: normal;
+  /* border: 2px solid beige; */
+  margin-top: 100px;
+  text-decoration: none;
+
+}
+.special-heading{
+  font-size: 20px;
+
+}
+
+.specials-photos{
+    width: 300px;
+    height: 200px;
 }

@@ -13,8 +13,9 @@ div.innerHTML=`<h1 class="special-heading>Specials</h1>
 ${data.map((value)=>{
     return `
     <div class="special-item">
-    <img class="specials-photos" src="${value.img}"</div>
-    <h3>${value.name}</h3>
+    <img class="specials-photos" src="${value.img}"
+    <p>${value.name}</p>
+    </div>
     `
 }).join(" ")}`;
 }

@@ -9,12 +9,13 @@ var data=JSON.parse(req.responseText);
 req.send();
 
 function renderHtml(data){
-div.innerHTML=`<h1 class="special-heading>Specials</h1>
+div.innerHTML=`<h1 class="special-heading>Menu-items</h1>
 ${data.map((value)=>{
 return `
 <div class="special-item">
-<img class="specials-photos" src="${value.img}"</div>
+<img class="specials-photos" src="${value.img}"
 <h3>${value.name}</h3>
+</div>
 `
 }).join(" ")}`;
 }
