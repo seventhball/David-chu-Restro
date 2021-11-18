@@ -9,7 +9,7 @@ var div=document.getElementById('app');
     req.send();
 
 function renderHtml(data){
-div.innerHTML=`<h1 class="special-heading>Specials</h1>
+div.innerHTML=`<h1 class="special-heading">Specials</h1>
 ${data.map((value)=>{
     return `
     <div class="special-item">

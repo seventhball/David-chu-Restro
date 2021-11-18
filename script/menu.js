@@ -9,7 +9,7 @@ var data=JSON.parse(req.responseText);
 req.send();
 
 function renderHtml(data){
-div.innerHTML=`<h1 class="special-heading>Menu-items</h1>
+div.innerHTML=`<h1 class="menu-heading">Menu-items</h1>
 ${data.map((value)=>{
 return `
 <div class="special-item">

@@ -138,7 +138,6 @@ ul {
     align-items: flex-start;
      align-self: center;
      margin-left: 350px;
-
  }
  .hours, .add, .review{
      width:33%;
@@ -172,12 +171,14 @@ ul {
    font-weight: normal;
   margin-top: 100px;
   text-decoration: none;
-
 }
-.special-heading{
-  font-size: 20px;
+.special-heading, .menu-heading{
+    font-size: 50px;
+    color: white;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    font-style: italic;
 }
-
 .specials-photos{
     width: 300px;
     height: 200px;
